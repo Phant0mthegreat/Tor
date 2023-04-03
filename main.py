@@ -1,6 +1,5 @@
 import colorama
 from colorama import Fore
-import nmap
 import re
 import ipaddress
 import socket
