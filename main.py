@@ -3,13 +3,13 @@ from colorama import Fore
 import re
 import ipaddress
 import socket
-import system
+import os
 port_range_pattern = re.compile("([0-9]+)-([0-9]+)")
 
 port_min = 0
 port_max = 65535
 
-system("clear")
+os.system('clear') or None
 print(Fore.YELLOW + ' ')
 print(r"""▄▄▄█████▓ ▒█████   ██▀███  
 ▓  ██▒ ▓▒▒██▒  ██▒▓██ ▒ ██▒
